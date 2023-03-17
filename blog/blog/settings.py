@@ -24,9 +24,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-&wh_#r7b2^f^%!^!atp%r3isy*l)xfg#1&o9ffngrd62vtue8-'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["localhost", "mini-blog-django-hillel"]
 
 
 # Application definition
